@@ -52,9 +52,15 @@ Your text comes here
 | 🥇DES       | 0.000030                        | 0.001000                      |
 | 🥈AES       | 0.000150                        | 0.001000                      |
 | 🥉PRESENT   | 0.000170                        | 0.002000                      |
-| 🎖️RSA       | 0.000360                        | 0.002000                      |
+| RSA       | 0.000360                        | 0.002000                      |
+
 
 ![image](https://github.com/user-attachments/assets/a50faeb5-2a85-4e49-91a3-d28f8efb9a83)
+
+Automatic GUI for our Benchmark!
+
+![image](https://github.com/user-attachments/assets/194dfa4c-684e-4eba-801f-0a5ce864639d)
+
 
 ## Related Links
 Some links related to your project come here.
