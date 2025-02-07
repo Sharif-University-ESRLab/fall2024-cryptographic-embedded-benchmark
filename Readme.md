@@ -8,13 +8,17 @@ A brief description of what this project does and who it's for comes here.
 
 
 ## Tools
-In this section, you should mention the hardware or simulators utilized in your project.
-- Qemu
-- Gem5
-- ESP32
-- Raspberry Pi 3B
-- Temperature Sensor
-
+- STMCubeMX
+- STMCubeIDE
+- KeiluVision
+- PuTTy
+- Tera Term
+- STMCubeProgrammer
+- STMCubeIDE
+- KeiluVision
+- PuTTy
+- Tera Term
+- STM32F103C8T6 - Blue Pill
 
 ## Implementation Details
 
