@@ -4,8 +4,7 @@
 
 # Project Title
 
-A brief description of what this project does and who it's for comes here.
-
+Evaluation of cryptographic algorithms and security protocols in embedded systems
 
 ## Tools
 - STMCubeMX
