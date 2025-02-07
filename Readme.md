@@ -23,7 +23,10 @@ The goal of this project is to design and implement a benchmark evaluation syste
 ## Implementation Details
 
 In this section, you will explain how you completed your project. It is recommended to use pictures to demonstrate your system model and implementation.
-First we did a comprehensive survey on the existing benchmarks and algorithms and did one (to our knowledge) the first survery on cryptographic algorithms in embedded system benchmarks, using the insights, weaknesses and strengths of the algorithms and benchmarks we found we created our own benchmark which has a big advantage over prior benchmarks and it is a main contribution. we calculated the std and we know that the probability that it will take longer than the mean plus 3 to std is less than 1% according to probability and statistics. This makes our benchmark stand out as we have a 99% probability as well!
+
+First, we conducted a comprehensive survey of existing benchmarks and algorithms. To our knowledge, we were the first to conduct a survey specifically on cryptographic algorithms within embedded system benchmarks. Using the insights we gained—along with the identified strengths and weaknesses of existing algorithms and benchmarks—we developed our own benchmark, which offers significant advantages over prior benchmarks and serves as a key contribution of our work.
+
+Additionally, we calculated the standard deviation and determined that the probability of execution time exceeding the mean plus three standard deviations is less than 1%, based on probability and statistics principles. This statistical rigor makes our benchmark stand out, ensuring a 99% probability of reliable performance.
 
 ![image](https://github.com/user-attachments/assets/cb0c0cbc-d05f-414b-9316-59ad62a312dd)
 
@@ -65,34 +68,22 @@ A successful load
 
 ## How to Run
 
-In this part, you should provide instructions on how to run your project. Also if your project requires any prerequisites, mention them. 
-
-#### Examples:
-#### Build Project
-Your text comes here
-```bash
-  build --platform=OvmfPkg/OvmfPkgX64.dsc --arch=X64 --buildtarget=RELEASE --tagname=GCC5
-```
-
-#### Run server
-Your text comes here
-```bash
-  pyhton server.py -p 8080
-```
-
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `-p` | `int` | **Required**. Server port |
-
-
+There are no dependencies. The instructions for the STM32 are provided above. The code is fully implemented in our benchmark design within the code folder, and all files are in C. You just need to build and compile them. The GUI also includes a leaderboard and can be run multiple times.
 
 ## Results
-| Algorithm | Average Execution Time (seconds) | Worst Execution Time (seconds) |
-|-----------|---------------------------------|-------------------------------|
-| 🥇DES       | 0.000030                        | 0.001000                      |
-| 🥈AES       | 0.000150                        | 0.001000                      |
-| 🥉PRESENT   | 0.000170                        | 0.002000                      |
-| RSA       | 0.000360                        | 0.002000                      |
+This table presents the execution time statistics for different cryptographic algorithms.
+
+| Algorithm | Average Execution Time (seconds) | Worst Execution Time (seconds) | Standard Deviation | Average + 3σ (seconds) |
+|-----------|---------------------------------|-------------------------------|--------------------|-----------------------|
+| 🥇PRESENT   | 0.000012                        | 0.000036                      | 0.000025           | 0.000087              |
+| 🥈DES       | 0.000038                        | 0.000066                      | 0.000058           | 0.000212              |
+| 🥉RSA       | 0.000084                        | 0.000213                      | 0.000169           | 0.000590              |
+| AES       | 0.000168                        | 0.000275                      | 0.000345           | 0.001202              |
+
+## Notes
+- **PRESENT** has the fastest average execution time.
+- **AES** has the highest variation in execution time, as indicated by its standard deviation.
+- The "Average + 3σ" column provides an estimate of the worst-case scenario for each algorithm.
 
 
 ![image](https://github.com/user-attachments/assets/a50faeb5-2a85-4e49-91a3-d28f8efb9a83)
@@ -100,17 +91,16 @@ Your text comes here
 Automatic GUI for our Benchmark!
 
 ![image](https://github.com/user-attachments/assets/194dfa4c-684e-4eba-801f-0a5ce864639d)
-
-
 ## Related Links
 Some links related to your project come here.
- - [EDK II](https://github.com/tianocore/edk2)
- - [ESP32 Pinout](https://randomnerdtutorials.com/esp32-pinout-reference-gpios/)
- - [Django Doc](https://docs.djangoproject.com/en/5.0/)
+ - [PRESENT](https://www.iacr.org/archive/ches2007/47270450/47270450.pdf)
+ - [DES](https://en.wikipedia.org/wiki/Data_Encryption_Standard)
+ - [RSA](https://en.wikipedia.org/wiki/RSA_(cryptosystem))
 
 
 ## Authors
 Authors and their github link come here.
-- [@Author1](https://github.com/Sharif-University-ESRLab)
-- [@Author2](https://github.com/Sharif-University-ESRLab)
+- [@Arian Zamani](https://github.com/Sharif-University-ESRLab)
+- [@Seyed Reza Hosseini Dolat Abadi](https://github.com/Sharif-University-ESRLab)
+- [@Pardis Zahraei](https://github.com/pardissz)
 
