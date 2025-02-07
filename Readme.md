@@ -54,7 +54,7 @@ Your text comes here
 | 🥉PRESENT   | 0.000170                        | 0.002000                      |
 | 🎖️RSA       | 0.000360                        | 0.002000                      |
 
-Using image is required.
+![image](https://github.com/user-attachments/assets/a50faeb5-2a85-4e49-91a3-d28f8efb9a83)
 
 ## Related Links
 Some links related to your project come here.
