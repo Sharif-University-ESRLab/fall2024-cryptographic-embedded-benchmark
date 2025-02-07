@@ -2,9 +2,10 @@
 ![Logo](https://via.placeholder.com/600x150?text=Your+Logo+Here+600x150)
 
 
-# Project Title
+# Evaluation of cryptographic algorithms and security protocols in embedded systems
 
-Evaluation of cryptographic algorithms and security protocols in embedded systems
+The goal of this project is to design and implement a benchmark evaluation system for analyzing the performance of cryptographic algorithms and widely-used security protocols in embedded systems. This project will specifically focus on measuring system performance metrics such as Worst-Case Execution Time (WCET) and number of clock cycles to identify optimization opportunities. By developing new benchmarks that focus on modern cryptographic techniques, this project will address the problems found in older or expensive benchmark tools like Embench, Mibench, and EEMBC.
+
 
 ## Tools
 - STMCubeMX
