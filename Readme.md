@@ -47,7 +47,12 @@ Your text comes here
 
 
 ## Results
-In this section, you should present your results and provide an explanation for them.
+| Algorithm | Average Execution Time (seconds) | Worst Execution Time (seconds) |
+|-----------|---------------------------------|-------------------------------|
+| 🥇DES       | 0.000030                        | 0.001000                      |
+| 🥈AES       | 0.000150                        | 0.001000                      |
+| 🥉PRESENT   | 0.000170                        | 0.002000                      |
+| 🎖️RSA       | 0.000360                        | 0.002000                      |
 
 Using image is required.
 
