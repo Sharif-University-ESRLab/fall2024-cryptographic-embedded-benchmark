@@ -1,5 +1,5 @@
 
-![Logo](https://via.placeholder.com/600x150?text=Your+Logo+Here+600x150)
+![image](https://github.com/user-attachments/assets/f4e47219-c674-4edc-8a99-f402d56ce15b)
 
 
 # Evaluation of cryptographic algorithms and security protocols in embedded systems
