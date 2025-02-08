@@ -1,8 +1,4 @@
-/* Basic implementation of AES in C
- *
- * Warning: THIS CODE IS ONLY FOR LEARNING PURPOSES
- *          NOT RECOMMENDED TO USE IT IN ANY PRODUCTS
- */
+
 
 #include <stdio.h>  // for printf
 #include <stdlib.h> // for malloc, free

@@ -1,10 +1,3 @@
-//////////////////////////////////////////////////////
-//                                                  //
-//  Lightweight block cipher PRESENT implementation //
-//  Author:                                         //
-//  Petar Tonkovic	                            //
-//                                                  //
-//////////////////////////////////////////////////////
 
 #include <stdio.h>
 #include<stdint.h>
@@ -15,7 +8,6 @@
 
 
 // define a byte structure consisted of two 4 bit nibbles
-// the structure has packed attributes (prevent the compiler from adding padding in memory between them)
 typedef struct __attribute__((__packed__)) byte{
     uint8_t nibble1 : 4;
     uint8_t nibble2 : 4;
