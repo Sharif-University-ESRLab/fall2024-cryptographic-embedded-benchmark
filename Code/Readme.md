@@ -1,20 +1,18 @@
 
 # Code
 
-Please upload your final codes to this folder.
+This section contains two main folders:
 
-If your project consists of multiple parts (e.g. server, client, and embedded device), create a separate folder for each one.
+## GUI
 
+This folder contains the graphical user interface (GUI) for the project.
 
-Please edit this *readme* file and give brief description of each part.
+It is designed to run seamlessly on Windows and other operating systems.
 
-**Example:**
+The interface provides a visually appealing experience, including a leaderboard displaying the best scores.
 
-## Server
-Server implemeted using `Django`.
+## Algorithms
 
-## Client
-Pure `HTML`, `CSS`& `JS` is used for user interface.
+This folder contains all algorithm implementations.
 
-## ESP32
-ESP32 is prgorammed using `C++` in `Arduino IDE`. 
+Each algorithm is developed with great detail and rigor to ensure accuracy and efficiency.

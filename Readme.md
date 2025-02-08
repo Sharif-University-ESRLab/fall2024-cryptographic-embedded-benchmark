@@ -4,7 +4,7 @@
 
 # Evaluation of cryptographic algorithms and security protocols in embedded systems
 
-The goal of this project is to design and implement a benchmark evaluation system for analyzing the performance of cryptographic algorithms and widely-used security protocols in embedded systems. This project will specifically focus on measuring system performance metrics such as Worst-Case Execution Time (WCET) and number of clock cycles to identify optimization opportunities. By developing new benchmarks that focus on modern cryptographic techniques, this project will address the problems found in older or expensive benchmark tools like Embench, Mibench, and EEMBC.
+The goal of this project is to design and implement a benchmark evaluation system for analyzing the performance of cryptographic algorithms and widely-used security protocols in embedded systems. This project will specifically focus on measuring system performance metrics such as Worst-Case Execution Time (WCET) to identify optimization opportunities. By developing new benchmarks that focus on modern cryptographic techniques, this project will address the problems found in older or expensive benchmark tools like Embench, Mibench, and EEMBC.
 
 
 ## Tools
@@ -22,11 +22,9 @@ The goal of this project is to design and implement a benchmark evaluation syste
 
 ## Implementation Details
 
-In this section, you will explain how you completed your project. It is recommended to use pictures to demonstrate your system model and implementation.
+First, we conducted a comprehensive survey of existing benchmarks and algorithms. To our knowledge, we were the first to conduct a survey specifically on cryptographic algorithms within embedded system benchmarks. We reviewed **70** papers, summarized their abstracts, and analyzed their weaknesses and insights. Based on this analysis, we developed our own benchmark, which offers significant advantages over prior benchmarks and serves as a key contribution of our work. The survey we developed can be extremely valuable to the research community as a focused effort in this domain.
 
-First, we conducted a comprehensive survey of existing benchmarks and algorithms. To our knowledge, we were the first to conduct a survey specifically on cryptographic algorithms within embedded system benchmarks. Using the insights we gained—along with the identified strengths and weaknesses of existing algorithms and benchmarks—we developed our own benchmark, which offers significant advantages over prior benchmarks and serves as a key contribution of our work.
-
-Additionally, we calculated the standard deviation and determined that the probability of execution time exceeding the mean plus three standard deviations is less than 1%, based on probability and statistics principles. This statistical rigor makes our benchmark stand out, ensuring a 99% probability of reliable performance.
+Additionally, we calculated the standard deviation and determined that the probability of execution time exceeding the mean plus three standard deviations is less than 1%, based on probability and statistics principles. This statistical rigor makes our benchmark stand out, ensuring a **99% probability of reliable performance**.
 
 ![image](https://github.com/user-attachments/assets/cb0c0cbc-d05f-414b-9316-59ad62a312dd)
 
